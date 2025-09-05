@@ -44,6 +44,33 @@
     position: relative;
     transition: background 0.3s;
     margin-right: 10px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.theme-switch-icon {
+    pointer-events: none;
+    transition: opacity 0.3s;
+    opacity: 0.6;
+    z-index: 2;
+}
+.theme-switch-icon-light {
+    left: 0;
+}
+.theme-switch-icon-dark {
+    right: 0;
+}
+.theme-switch:checked + .theme-switch-label .theme-switch-icon-light {
+    opacity: 0.2;
+}
+.theme-switch:checked + .theme-switch-label .theme-switch-icon-dark {
+    opacity: 1;
+}
+.theme-switch:not(:checked) + .theme-switch-label .theme-switch-icon-light {
+    opacity: 1;
+}
+.theme-switch:not(:checked) + .theme-switch-label .theme-switch-icon-dark {
+    opacity: 0.2;
 }
 .theme-switch-label .theme-switch-slider {
     content: '';
