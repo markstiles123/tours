@@ -3,18 +3,18 @@
   "name": "Wanderlust Travel Guide",
   "icons": [
     {
-      "src": "/favicon.png",
+      "src": "/icon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/favicon.png",
+      "src": "/icon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "id": "/?source=pwa",
-  "start_url": "/?source=pwa",
+  "id": "/",
+  "start_url": "/",
   "background_color": "#85c04a",
   "display": "standalone",
   "scope": "/",
@@ -22,13 +22,13 @@
   "description": "Your adventure starts here! Discover, explore, and experience the world with us.",
   "screenshots": [
     {
-      "src": "/images/screenshot1.png",
-      "type": "image/png",
+      "src": "/screenshot.jpg",
+      "type": "image/jpg",
       "sizes": "540x720",
       "form_factor": "narrow"
     },
     {
-      "src": "/images/screenshot2.jpg",
+      "src": "/screenshot.jpg",
       "type": "image/jpg",
       "sizes": "720x540",
       "form_factor": "wide"
