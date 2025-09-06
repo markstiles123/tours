@@ -32,11 +32,9 @@ async function cacheFetch(request) {
     }
     response = await fetch(request),
         clone = response.clone();
-    if (response.status!='0') {
         caches.open('v1').then(cache => {
             cache.put(request, clone)
         });
-    }
     return response
 }
 function get(request) {
