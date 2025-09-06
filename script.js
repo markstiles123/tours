@@ -1,4 +1,4 @@
-// Example JavaScript for Wanderlust Travel Guide
+// Example JavaScript for Uganda Travel Guide
 // You can add more interactivity as needed
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const message = form.querySelector('textarea').value.trim();
             const subject = encodeURIComponent('Travel Inquiry from ' + name);
             const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-            const mailto = `mailto:info@wanderlust.com?subject=${subject}&body=${body}`;
+            const mailto = `mailto:info@Uganda.com?subject=${subject}&body=${body}`;
             const a = document.createElement('a');
             a.href = mailto;
             a.style.display = 'none';
